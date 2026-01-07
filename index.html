@@ -1,2 +1,107 @@
-<h1>hello word </h1><br>
-<h1>Comment aller vous ?</h1>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon premier site web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #0d6efd;
+        }
+
+        section {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur mon site</h1>
+        <p>Mon premier site web en HTML</p>
+    </header>
+
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="accueil">
+        <div class="card">
+            <h2>Accueil</h2>
+            <p>
+                Ceci est un petit site web créé uniquement avec HTML et un peu de CSS.
+                Il est idéal pour apprendre les bases du développement web.
+            </p>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <div class="card">
+            <h2>À propos</h2>
+            <p>
+                Je suis étudiant en informatique et je me forme au développement web,
+                aux réseaux et aux systèmes informatiques.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Email : <strong>exemple@email.com</strong></p>
+            <p>Téléphone : <strong>+33 6 00 00 00 00</strong></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 - Mon premier site web</p>
+    </footer>
+
+</body>
+</html>
